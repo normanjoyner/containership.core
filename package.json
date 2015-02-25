@@ -1,0 +1,29 @@
+{
+  "name": "containership.core",
+  "version": "0.1.0",
+  "description": "The core functionality of Containership",
+  "main": "application.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/growbrosops/containership.core.git"
+  },
+  "author": "ContainerShip Developers <developers@containership.io>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/growbrosops/containership.core/issues"
+  },
+  "homepage": "https://github.com/growbrosops/containership.core",
+  "dependencies": {
+    "async": "^0.8.0",
+    "body-parser": "^1.4.3",
+    "lodash": "^2.4.1",
+    "praetor": "^0.0.5",
+    "request": "^2.51.0",
+    "winston": "^0.7.3"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
