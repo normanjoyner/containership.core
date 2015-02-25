@@ -25,5 +25,9 @@
     "winston": "^0.7.3"
   },
   "devDependencies": {},
-  "keywords": []
+  "keywords": [
+    "containership",
+    "core",
+    "containership.core"
+  ]
 }

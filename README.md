@@ -4,7 +4,7 @@ containership.core
 ##About
 
 ###Description
-The core functionality of Containership
+The core functionality of ContainerShip
 
 ###Author
 ContainerShip Developers - developers@containership.io
