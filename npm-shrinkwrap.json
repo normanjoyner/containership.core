@@ -1,6 +1,6 @@
 {
   "name": "containership.core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dependencies": {
     "async": {
       "version": "0.8.0",
@@ -81,9 +81,8 @@
       "resolved": "https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz"
     },
     "praetor": {
-      "version": "0.0.5",
-      "from": "praetor@^0.0.5",
-      "resolved": "https://registry.npmjs.org/praetor/-/praetor-0.0.5.tgz",
+      "version": "0.0.6",
+      "from": "praetor@^0.0.6",
       "dependencies": {
         "eventemitter2": {
           "version": "0.4.14",
@@ -91,19 +90,14 @@
           "resolved": "https://registry.npmjs.org/eventemitter2/-/eventemitter2-0.4.14.tgz"
         },
         "legiond": {
-          "version": "0.0.1",
-          "from": "https://registry.npmjs.org/legiond/-/legiond-0.0.1.tgz",
-          "resolved": "https://registry.npmjs.org/legiond/-/legiond-0.0.1.tgz",
+          "version": "0.0.2",
+          "from": "https://registry.npmjs.org/legiond/-/legiond-0.0.2.tgz",
+          "resolved": "https://registry.npmjs.org/legiond/-/legiond-0.0.2.tgz",
           "dependencies": {
             "async": {
               "version": "0.9.0",
               "from": "https://registry.npmjs.org/async/-/async-0.9.0.tgz",
               "resolved": "https://registry.npmjs.org/async/-/async-0.9.0.tgz"
-            },
-            "eventemitter2": {
-              "version": "0.4.13",
-              "from": "https://registry.npmjs.org/eventemitter2/-/eventemitter2-0.4.13.tgz",
-              "resolved": "https://registry.npmjs.org/eventemitter2/-/eventemitter2-0.4.13.tgz"
             },
             "netmask": {
               "version": "1.0.5",
@@ -121,9 +115,9 @@
                   "resolved": "https://registry.npmjs.org/needle/-/needle-0.7.10.tgz",
                   "dependencies": {
                     "iconv-lite": {
-                      "version": "0.4.5",
-                      "from": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.5.tgz",
-                      "resolved": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.5.tgz"
+                      "version": "0.4.6",
+                      "from": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.6.tgz",
+                      "resolved": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.6.tgz"
                     }
                   }
                 },
@@ -135,48 +129,14 @@
               }
             },
             "node-aes-gcm": {
-              "version": "0.1.3",
-              "from": "https://registry.npmjs.org/node-aes-gcm/-/node-aes-gcm-0.1.3.tgz",
-              "resolved": "https://registry.npmjs.org/node-aes-gcm/-/node-aes-gcm-0.1.3.tgz"
-            },
-            "ip": {
-              "version": "0.3.0",
-              "from": "https://registry.npmjs.org/ip/-/ip-0.3.0.tgz",
-              "resolved": "https://registry.npmjs.org/ip/-/ip-0.3.0.tgz"
-            },
-            "memory-cache": {
-              "version": "0.0.5",
-              "from": "https://registry.npmjs.org/memory-cache/-/memory-cache-0.0.5.tgz",
-              "resolved": "https://registry.npmjs.org/memory-cache/-/memory-cache-0.0.5.tgz"
-            },
-            "node-cache": {
-              "version": "1.0.0",
-              "from": "https://registry.npmjs.org/node-cache/-/node-cache-1.0.0.tgz",
-              "resolved": "https://registry.npmjs.org/node-cache/-/node-cache-1.0.0.tgz",
+              "version": "0.1.4",
+              "from": "https://registry.npmjs.org/node-aes-gcm/-/node-aes-gcm-0.1.4.tgz",
+              "resolved": "https://registry.npmjs.org/node-aes-gcm/-/node-aes-gcm-0.1.4.tgz",
               "dependencies": {
-                "underscore": {
-                  "version": "1.6.0",
-                  "from": "https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz",
-                  "resolved": "https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz"
-                }
-              }
-            },
-            "getmac": {
-              "version": "1.0.6",
-              "from": "https://registry.npmjs.org/getmac/-/getmac-1.0.6.tgz",
-              "resolved": "https://registry.npmjs.org/getmac/-/getmac-1.0.6.tgz",
-              "dependencies": {
-                "extract-opts": {
-                  "version": "2.2.0",
-                  "from": "https://registry.npmjs.org/extract-opts/-/extract-opts-2.2.0.tgz",
-                  "resolved": "https://registry.npmjs.org/extract-opts/-/extract-opts-2.2.0.tgz",
-                  "dependencies": {
-                    "typechecker": {
-                      "version": "2.0.8",
-                      "from": "https://registry.npmjs.org/typechecker/-/typechecker-2.0.8.tgz",
-                      "resolved": "https://registry.npmjs.org/typechecker/-/typechecker-2.0.8.tgz"
-                    }
-                  }
+                "nan": {
+                  "version": "1.4.3",
+                  "from": "https://registry.npmjs.org/nan/-/nan-1.4.3.tgz",
+                  "resolved": "https://registry.npmjs.org/nan/-/nan-1.4.3.tgz"
                 }
               }
             }

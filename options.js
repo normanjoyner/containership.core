@@ -4,6 +4,7 @@ var pkg = require([__dirname, "package"].join("/"));
 module.exports = {
     cidr: {
         help: "CIDR range to search for other Containership nodes",
+        list: true,
         default: "127.0.0.1/32"
     },
 
