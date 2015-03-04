@@ -81,8 +81,8 @@
       "resolved": "https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz"
     },
     "praetor": {
-      "version": "0.0.6",
-      "from": "praetor@^0.0.6",
+      "version": "0.0.7",
+      "from": "praetor@^0.0.7",
       "dependencies": {
         "eventemitter2": {
           "version": "0.4.14",
