@@ -107,6 +107,12 @@ ContainershipCore.prototype.load_options = function(options){
         options.legiond.attributes.cpus = resources.get_cpus();
     }
 
+    options.legiond.attributes.metadata = {
+        containership: {
+            version: options.version
+        }
+    }
+
     options.persistence = {
         max_coalescing_duration: 1024,
         data_directory: ["", "tmp"].join("/"),
