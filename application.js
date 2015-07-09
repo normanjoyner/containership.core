@@ -14,7 +14,6 @@ module.exports = function(options){
     else
         process.exit(1);
 
-
     if(_.has(options, "api")){
         core.api = options.api;
         _.defaults(opts, core.api.options);
