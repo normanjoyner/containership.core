@@ -81,8 +81,8 @@
       "resolved": "https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz"
     },
     "myriad-kv": {
-      "version": "0.0.1",
-      "from": "myriad-kv@*",
+      "version": "0.0.2",
+      "from": "myriad-kv@^0.0.2",
       "dependencies": {
         "async": {
           "version": "1.0.0",
@@ -113,7 +113,7 @@
         },
         "praetor": {
           "version": "0.1.3",
-          "from": "praetor@0.1.3",
+          "from": "https://registry.npmjs.org/praetor/-/praetor-0.1.3.tgz",
           "resolved": "https://registry.npmjs.org/praetor/-/praetor-0.1.3.tgz",
           "dependencies": {
             "eventemitter2": {
@@ -143,8 +143,8 @@
                     },
                     "tstream": {
                       "version": "0.0.1",
-                      "from": "git://github.com/jasonkuhrt/tstream.git#4f51e59ab9bb168e43f724df8b5d027235a6def4",
-                      "resolved": "git://github.com/jasonkuhrt/tstream.git#4f51e59ab9bb168e43f724df8b5d027235a6def4"
+                      "from": "tstream@git://github.com/jasonkuhrt/tstream#4f51e59ab9bb168e43f724df8b5d027235a6def4",
+                      "resolved": "git://github.com/jasonkuhrt/tstream#4f51e59ab9bb168e43f724df8b5d027235a6def4"
                     },
                     "delimit-stream": {
                       "version": "0.0.1",
@@ -254,7 +254,7 @@
     },
     "praetor": {
       "version": "0.0.10",
-      "from": "praetor@0.0.10",
+      "from": "https://registry.npmjs.org/praetor/-/praetor-0.0.10.tgz",
       "resolved": "https://registry.npmjs.org/praetor/-/praetor-0.0.10.tgz",
       "dependencies": {
         "eventemitter2": {
