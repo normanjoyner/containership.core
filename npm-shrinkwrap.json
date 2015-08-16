@@ -1,6 +1,6 @@
 {
   "name": "containership.core",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "dependencies": {
     "async": {
       "version": "0.8.0",
@@ -82,7 +82,7 @@
     },
     "praetor": {
       "version": "0.0.10",
-      "from": "praetor@0.0.10",
+      "from": "https://registry.npmjs.org/praetor/-/praetor-0.0.10.tgz",
       "resolved": "https://registry.npmjs.org/praetor/-/praetor-0.0.10.tgz",
       "dependencies": {
         "eventemitter2": {
