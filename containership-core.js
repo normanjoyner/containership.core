@@ -77,6 +77,9 @@ ContainershipCore.prototype.load_options = function(options){
     options.legiond.network.cidr = options.cidr;
     options.legiond.network.public = options["legiond-scope"] == "public";
 
+    if(_.has(options, "legiond-interface"))
+        options.legiond.network.interface = options["legiond-interface"];
+
     if(options.mode == "leader"){
         options.legiond.attributes.mode = "leader";
         options.praetor.leader_eligible = true;
