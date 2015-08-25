@@ -12,7 +12,7 @@ module.exports = {
     "legiond-scope": {
         help: "Specifies whether nodes will communicate over their public or private ip address",
         choices: ["private", "public"],
-        default: "private"
+        default: "public"
     },
 
     "legiond-interface": {
