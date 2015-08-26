@@ -1,6 +1,6 @@
 {
   "name": "containership.core",
-  "version": "0.2.9-rc.0",
+  "version": "0.2.11",
   "dependencies": {
     "async": {
       "version": "0.8.0",
