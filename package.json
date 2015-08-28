@@ -1,6 +1,6 @@
 {
   "name": "containership.core",
-  "version": "0.2.9-rc.0",
+  "version": "0.2.11",
   "description": "The core functionality of Containership",
   "main": "application.js",
   "scripts": {
@@ -20,8 +20,7 @@
     "async": "^0.8.0",
     "body-parser": "^1.4.3",
     "lodash": "^2.4.1",
-    "myriad-kv": "^0.0.2",
-    "praetor": "^0.1.6",
+    "myriad-kv": "^0.0.3",
     "request": "^2.51.0",
     "winston": "^0.7.3"
   },
