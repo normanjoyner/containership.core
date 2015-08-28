@@ -1,4 +1,5 @@
 var _ = require("lodash");
+var os = require("os");
 var pkg = require([__dirname, "package"].join("/"));
 
 module.exports = {
@@ -11,7 +12,13 @@ module.exports = {
     "legiond-scope": {
         help: "Specifies whether nodes will communicate over their public or private ip address",
         choices: ["private", "public"],
-        default: "private"
+        default: "public"
+    },
+
+    "legiond-interface": {
+        help: "Interface over which node will communicate",
+        metavar: "INTERFACE",
+        choices: _.keys(os.networkInterfaces())
     },
 
     tag: {

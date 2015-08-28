@@ -4,7 +4,10 @@ var pkg = require([__dirname, "package"].join("/"));
 var opts = require([__dirname, "options"].join("/"));
 
 module.exports = function(options){
-    var core = new ContainershipCore();
+    var core = new ContainershipCore({
+        version: pkg.version
+    });
+
     core.version = pkg.version;
 
     if(_.has(options, "scheduler")){
@@ -13,7 +16,6 @@ module.exports = function(options){
     }
     else
         process.exit(1);
-
 
     if(_.has(options, "api")){
         core.api = options.api;

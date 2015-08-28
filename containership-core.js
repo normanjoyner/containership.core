@@ -5,9 +5,8 @@ var resources = require([__dirname, "lib", "resources"].join("/"));
 var plugins = require([__dirname, "lib", "plugins"].join("/"));
 var Logger = require([__dirname, "lib", "logger"].join("/"));
 var Cluster = require([__dirname, "lib", "cluster"].join("/"));
-var Persistence = require([__dirname, "lib", "persistence"].join("/"));
 var Applications = require([__dirname, "lib", "applications"].join("/"));
-var Hosts = require([__dirname, "lib", "hosts"].join("/"));
+var constants = require([__dirname, "lib", "constants"].join("/"));
 
 // define ContainershipCore
 function ContainershipCore(options){
@@ -18,17 +17,16 @@ function ContainershipCore(options){
 ContainershipCore.prototype.initialize = function(){
     var self = this;
 
+    this.constants = constants;
+
     // initialize logger
     this.loggers = {};
     this.logger = new Logger(this);
     this.logger.register("containership.core");
 
-    // initialize persistence
-    if(this.options.mode == "leader"){
-        this.persistence = new Persistence(this);
+    // initialize applications
+    if(this.options.mode == "leader")
         this.applications = new Applications(this);
-        this.hosts = new Hosts(this);
-    }
 
     this.loggers["containership.core"].log("info", ["Containership version", this.options.version , "started in", this.options.mode, "mode!"].join(" "));
 
@@ -79,6 +77,9 @@ ContainershipCore.prototype.load_options = function(options){
     options.legiond.network.cidr = options.cidr;
     options.legiond.network.public = options["legiond-scope"] == "public";
 
+    if(_.has(options, "legiond-interface"))
+        options.legiond.network.interface = options["legiond-interface"];
+
     if(options.mode == "leader"){
         options.legiond.attributes.mode = "leader";
         options.praetor.leader_eligible = true;
@@ -87,11 +88,7 @@ ContainershipCore.prototype.load_options = function(options){
             options.legiond.attributes.tags[tag.tag] = tag.value;
         });
         options.channels = [
-            "applications.reconciled",
-            "applications.sync",
-            "cluster.state",
-            "container.loaded",
-            "container.unloaded"
+            constants.events.CLUSTER_ID
         ]
     }
     else{
@@ -101,16 +98,28 @@ ContainershipCore.prototype.load_options = function(options){
             options.legiond.attributes.tags[tag.tag] = tag.value;
         });
         options.channels = [
-            "applications.reconcile",
-            "cluster.state",
-            "container.load",
-            "container.unload",
-            "host.update",
-            "host.delete"
+            constants.events.CLUSTER_ID,
+            constants.events.RECONCILE,
+            constants.events.LOAD_CONTAINER,
+            constants.events.UNLOAD_CONTAINER,
+            constants.events.UPDATE_HOST,
+            constants.events.DELETE_HOST
         ]
 
         options.legiond.attributes.memory = resources.get_memory();
         options.legiond.attributes.cpus = resources.get_cpus();
+    }
+
+    options.legiond.attributes.metadata = {
+        containership: {
+            version: options.version
+        }
+    }
+
+    options.persistence = {
+        max_coalescing_duration: 1024,
+        data_directory: ["", "tmp"].join("/"),
+        snapshot_name: "containership.snapshot"
     }
 
     this.options = options;
