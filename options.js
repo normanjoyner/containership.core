@@ -73,5 +73,10 @@ module.exports = {
         metavar: "MODE",
         choices: ["leader", "follower"],
         required: true
+    },
+
+    "cluster-id": {
+        help: "Unique id of the cluster",
+        metavar: "CLUSTER_ID"
     }
 }
