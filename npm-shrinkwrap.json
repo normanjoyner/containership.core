@@ -122,8 +122,8 @@
       "resolved": "https://registry.npmjs.org/lodash/-/lodash-2.4.2.tgz"
     },
     "myriad-kv": {
-      "version": "0.0.4",
-      "from": "myriad-kv@^0.0.4",
+      "version": "0.0.5",
+      "from": "myriad-kv@^0.0.5",
       "dependencies": {
         "async": {
           "version": "1.0.0",
@@ -153,8 +153,8 @@
           "resolved": "https://registry.npmjs.org/object-sizeof/-/object-sizeof-1.0.6.tgz"
         },
         "praetor": {
-          "version": "0.1.7",
-          "from": "praetor@0.1.7",
+          "version": "0.1.8",
+          "from": "praetor@0.1.8",
           "dependencies": {
             "eventemitter2": {
               "version": "0.4.14",
