@@ -122,8 +122,8 @@
       "resolved": "https://registry.npmjs.org/lodash/-/lodash-2.4.2.tgz"
     },
     "myriad-kv": {
-      "version": "0.0.6",
-      "from": "myriad-kv@^0.0.6",
+      "version": "0.1.0",
+      "from": "myriad-kv@^0.1.0",
       "dependencies": {
         "async": {
           "version": "1.0.0",
