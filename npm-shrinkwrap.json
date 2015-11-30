@@ -343,8 +343,8 @@
       "resolved": "https://registry.npmjs.org/lodash/-/lodash-2.4.2.tgz"
     },
     "myriad-kv": {
-      "version": "0.2.0",
-      "from": "myriad-kv@^0.2.0",
+      "version": "0.2.1",
+      "from": "myriad-kv@^0.2.1",
       "dependencies": {
         "async": {
           "version": "1.0.0",
@@ -374,8 +374,8 @@
           "resolved": "https://registry.npmjs.org/object-sizeof/-/object-sizeof-1.0.6.tgz"
         },
         "praetor": {
-          "version": "0.1.9",
-          "from": "praetor@0.1.9",
+          "version": "0.1.10",
+          "from": "praetor@0.1.10",
           "dependencies": {
             "eventemitter2": {
               "version": "0.4.14",
@@ -383,9 +383,9 @@
               "resolved": "https://registry.npmjs.org/eventemitter2/-/eventemitter2-0.4.14.tgz"
             },
             "legiond": {
-              "version": "1.0.6",
-              "from": "https://registry.npmjs.org/legiond/-/legiond-1.0.6.tgz",
-              "resolved": "https://registry.npmjs.org/legiond/-/legiond-1.0.6.tgz",
+              "version": "1.1.1",
+              "from": "https://registry.npmjs.org/legiond/-/legiond-1.1.1.tgz",
+              "resolved": "https://registry.npmjs.org/legiond/-/legiond-1.1.1.tgz",
               "dependencies": {
                 "async": {
                   "version": "0.9.0",
