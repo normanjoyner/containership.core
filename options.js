@@ -75,6 +75,11 @@ module.exports = {
         required: true
     },
 
+    "node-id": {
+        help: "Unique node id for the node",
+        metavar: "NODE_ID"
+    }
+
     "cluster-id": {
         help: "Unique id of the cluster",
         metavar: "CLUSTER_ID"
