@@ -1,17 +1,7 @@
 {
   "name": "containership.core",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "dependencies": {
-    "ohai-data": {
-      "version": "0.1.0",
-      "from": "ohai-data@",
-      "resolved": "https://registry.npmjs.org/ohai-data/-/ohai-data-0.1.0.tgz"
-    },
-    "flat": {
-      "version": "1.6.0",
-      "from": "flat@",
-      "resolved": "https://registry.npmjs.org/flat/-/flat-1.6.0.tgz"
-    },
     "async": {
       "version": "0.8.0",
       "from": "async@^0.8.0",
@@ -347,6 +337,11 @@
         }
       }
     },
+    "flat": {
+      "version": "1.6.0",
+      "from": "https://registry.npmjs.org/flat/-/flat-1.6.0.tgz",
+      "resolved": "https://registry.npmjs.org/flat/-/flat-1.6.0.tgz"
+    },
     "lodash": {
       "version": "2.4.2",
       "from": "lodash@^2.4.1",
@@ -522,6 +517,11 @@
           }
         }
       }
+    },
+    "ohai-data": {
+      "version": "0.1.0",
+      "from": "https://registry.npmjs.org/ohai-data/-/ohai-data-0.1.0.tgz",
+      "resolved": "https://registry.npmjs.org/ohai-data/-/ohai-data-0.1.0.tgz"
     },
     "request": {
       "version": "2.61.0",
