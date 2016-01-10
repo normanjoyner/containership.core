@@ -2,6 +2,16 @@
   "name": "containership.core",
   "version": "1.4.3",
   "dependencies": {
+    "ohai-data": {
+      "version": "0.1.0",
+      "from": "ohai-data@",
+      "resolved": "https://registry.npmjs.org/ohai-data/-/ohai-data-0.1.0.tgz"
+    },
+    "flat": {
+      "version": "1.6.0",
+      "from": "flat@",
+      "resolved": "https://registry.npmjs.org/flat/-/flat-1.6.0.tgz"
+    },
     "async": {
       "version": "0.8.0",
       "from": "async@^0.8.0",

@@ -20,8 +20,10 @@
     "async": "^0.8.0",
     "body-parser": "^1.4.3",
     "codexd": "^0.1.1",
+    "flat": "^1.6.0",
     "lodash": "^2.4.1",
     "myriad-kv": "^0.2.2",
+    "ohai-data": "^0.1.0",
     "request": "^2.51.0",
     "winston": "^0.7.3"
   },
