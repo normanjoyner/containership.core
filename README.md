@@ -3,6 +3,9 @@ containership.core
 
 ##About
 
+### Build Status
+[![Build Status](https://drone.containership.io/api/badges/containership/containership.core/status.svg)](https://drone.containership.io/containership/containership.core)
+
 ###Description
 The core functionality of ContainerShip
 
