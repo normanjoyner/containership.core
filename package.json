@@ -4,7 +4,7 @@
   "description": "The core functionality of Containership",
   "main": "application.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
     "codexd": "^0.1.1",
     "flat": "^1.6.0",
     "lodash": "^2.4.1",
+    "mocha": "^2.3.4",
     "myriad-kv": "^0.2.2",
     "ohai-data": "^0.1.0",
     "request": "^2.51.0",
