@@ -1,6 +1,6 @@
 {
   "name": "containership.core",
-  "version": "1.4.7",
+  "version": "1.4.8",
   "dependencies": {
     "async": {
       "version": "0.8.0",
@@ -719,15 +719,15 @@
             }
           }
         },
-        "base64-js": {
-          "version": "0.0.2",
-          "from": "https://registry.npmjs.org/base64-js/-/base64-js-0.0.2.tgz",
-          "resolved": "https://registry.npmjs.org/base64-js/-/base64-js-0.0.2.tgz"
-        },
         "bops": {
           "version": "0.0.7",
           "from": "https://registry.npmjs.org/bops/-/bops-0.0.7.tgz",
           "resolved": "https://registry.npmjs.org/bops/-/bops-0.0.7.tgz"
+        },
+        "base64-js": {
+          "version": "0.0.2",
+          "from": "https://registry.npmjs.org/base64-js/-/base64-js-0.0.2.tgz",
+          "resolved": "https://registry.npmjs.org/base64-js/-/base64-js-0.0.2.tgz"
         },
         "to-utf8": {
           "version": "0.0.1",
