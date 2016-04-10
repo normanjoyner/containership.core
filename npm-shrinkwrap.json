@@ -455,9 +455,9 @@
       }
     },
     "myriad-kv": {
-      "version": "0.2.5",
-      "from": "myriad-kv@>=0.2.5 <0.3.0",
-      "resolved": "https://registry.npmjs.org/myriad-kv/-/myriad-kv-0.2.5.tgz",
+      "version": "0.3.0",
+      "from": "myriad-kv@>=0.3.0 <0.4.0",
+      "resolved": "https://registry.npmjs.org/myriad-kv/-/myriad-kv-0.3.0.tgz",
       "dependencies": {
         "async": {
           "version": "1.0.0",
