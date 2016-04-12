@@ -455,9 +455,9 @@
       }
     },
     "myriad-kv": {
-      "version": "0.3.0",
-      "from": "myriad-kv@>=0.3.0 <0.4.0",
-      "resolved": "https://registry.npmjs.org/myriad-kv/-/myriad-kv-0.3.0.tgz",
+      "version": "0.3.1",
+      "from": "myriad-kv@>=0.3.1 <0.4.0",
+      "resolved": "https://registry.npmjs.org/myriad-kv/-/myriad-kv-0.3.1.tgz",
       "dependencies": {
         "async": {
           "version": "1.0.0",
@@ -582,8 +582,8 @@
           "resolved": "https://registry.npmjs.org/msgpack-js/-/msgpack-js-0.3.0.tgz"
         },
         "praetor": {
-          "version": "0.1.12",
-          "from": "praetor@0.1.12",
+          "version": "0.1.13",
+          "from": "praetor@0.1.13",
           "dependencies": {
             "eventemitter2": {
               "version": "0.4.14",
