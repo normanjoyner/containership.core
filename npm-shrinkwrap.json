@@ -736,6 +736,11 @@
         }
       }
     },
+    "node-uuid": {
+      "version": "1.4.7",
+      "from": "node-uuid@latest",
+      "resolved": "https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.7.tgz"
+    },
     "ohai-data": {
       "version": "0.1.0",
       "from": "https://registry.npmjs.org/ohai-data/-/ohai-data-0.1.0.tgz",
