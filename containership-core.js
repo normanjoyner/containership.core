@@ -83,6 +83,9 @@ ContainershipCore.prototype.load_options = function(options){
     if(_.has(options, "cluster-id"))
         options.cluster_id = options["cluster-id"]
 
+    if(_.has(options, "node-id"))
+        options.legiond.network.id = options["node-id"];
+
     if(options.mode == "leader"){
         options.legiond.attributes.mode = "leader";
         options.praetor.leader_eligible = true;
