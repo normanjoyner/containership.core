@@ -455,9 +455,9 @@
       }
     },
     "myriad-kv": {
-      "version": "0.3.1",
-      "from": "myriad-kv@>=0.3.1 <0.4.0",
-      "resolved": "https://registry.npmjs.org/myriad-kv/-/myriad-kv-0.3.1.tgz",
+      "version": "0.3.2",
+      "from": "myriad-kv@>=0.3.2 <0.4.0",
+      "resolved": "https://registry.npmjs.org/myriad-kv/-/myriad-kv-0.3.2.tgz",
       "dependencies": {
         "async": {
           "version": "1.0.0",
@@ -582,8 +582,8 @@
           "resolved": "https://registry.npmjs.org/msgpack-js/-/msgpack-js-0.3.0.tgz"
         },
         "praetor": {
-          "version": "0.1.13",
-          "from": "praetor@0.1.13",
+          "version": "0.1.14",
+          "from": "praetor@0.1.14",
           "dependencies": {
             "eventemitter2": {
               "version": "0.4.14",
@@ -591,9 +591,9 @@
               "resolved": "https://registry.npmjs.org/eventemitter2/-/eventemitter2-0.4.14.tgz"
             },
             "legiond": {
-              "version": "1.2.3",
-              "from": "https://registry.npmjs.org/legiond/-/legiond-1.2.3.tgz",
-              "resolved": "https://registry.npmjs.org/legiond/-/legiond-1.2.3.tgz",
+              "version": "1.2.4",
+              "from": "https://registry.npmjs.org/legiond/-/legiond-1.2.4.tgz",
+              "resolved": "https://registry.npmjs.org/legiond/-/legiond-1.2.4.tgz",
               "dependencies": {
                 "async": {
                   "version": "0.9.2",
@@ -652,19 +652,31 @@
                     "wmic": {
                       "version": "0.0.7",
                       "from": "https://registry.npmjs.org/wmic/-/wmic-0.0.7.tgz",
-                      "resolved": "https://registry.npmjs.org/wmic/-/wmic-0.0.7.tgz"
+                      "resolved": "https://registry.npmjs.org/wmic/-/wmic-0.0.7.tgz",
+                      "dependencies": {
+                        "async": {
+                          "version": "2.0.0-rc.4",
+                          "from": "async@latest",
+                          "resolved": "https://registry.npmjs.org/async/-/async-2.0.0-rc.4.tgz"
+                        }
+                      }
+                    },
+                    "lodash": {
+                      "version": "4.11.2",
+                      "from": "lodash@>=4.3.0 <5.0.0",
+                      "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.11.2.tgz"
                     }
                   }
                 },
                 "node-aes-gcm": {
-                  "version": "0.1.6",
-                  "from": "https://registry.npmjs.org/node-aes-gcm/-/node-aes-gcm-0.1.6.tgz",
-                  "resolved": "https://registry.npmjs.org/node-aes-gcm/-/node-aes-gcm-0.1.6.tgz",
+                  "version": "0.1.7",
+                  "from": "https://registry.npmjs.org/node-aes-gcm/-/node-aes-gcm-0.1.7.tgz",
+                  "resolved": "https://registry.npmjs.org/node-aes-gcm/-/node-aes-gcm-0.1.7.tgz",
                   "dependencies": {
                     "nan": {
-                      "version": "2.0.9",
-                      "from": "https://registry.npmjs.org/nan/-/nan-2.0.9.tgz",
-                      "resolved": "https://registry.npmjs.org/nan/-/nan-2.0.9.tgz"
+                      "version": "2.3.2",
+                      "from": "https://registry.npmjs.org/nan/-/nan-2.3.2.tgz",
+                      "resolved": "https://registry.npmjs.org/nan/-/nan-2.3.2.tgz"
                     }
                   }
                 }
@@ -719,6 +731,11 @@
             }
           }
         },
+        "base64-js": {
+          "version": "0.0.2",
+          "from": "https://registry.npmjs.org/base64-js/-/base64-js-0.0.2.tgz",
+          "resolved": "https://registry.npmjs.org/base64-js/-/base64-js-0.0.2.tgz"
+        },
         "bops": {
           "version": "0.0.7",
           "from": "https://registry.npmjs.org/bops/-/bops-0.0.7.tgz",
@@ -728,11 +745,6 @@
           "version": "0.0.1",
           "from": "https://registry.npmjs.org/to-utf8/-/to-utf8-0.0.1.tgz",
           "resolved": "https://registry.npmjs.org/to-utf8/-/to-utf8-0.0.1.tgz"
-        },
-        "base64-js": {
-          "version": "0.0.2",
-          "from": "https://registry.npmjs.org/base64-js/-/base64-js-0.0.2.tgz",
-          "resolved": "https://registry.npmjs.org/base64-js/-/base64-js-0.0.2.tgz"
         }
       }
     },
