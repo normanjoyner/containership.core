@@ -95,7 +95,7 @@ class ContainerShipCore {
             options.legiond.attributes.mode = 'leader';
             options.praetor.leader_eligible = true;
             options.legiond.attributes.tags = {};
-            _.each(options.tag, (tag) => {
+            _.forEach(options.tag, (tag) => {
                 options.legiond.attributes.tags[tag.tag] = tag.value;
             });
             options.channels = [
@@ -104,7 +104,7 @@ class ContainerShipCore {
         } else {
             options.legiond.attributes.engines = {};
             options.legiond.attributes.tags = {};
-            _.each(options.tag, (tag) => {
+            _.forEach(options.tag, (tag) => {
                 options.legiond.attributes.tags[tag.tag] = tag.value;
             });
             options.channels = [
