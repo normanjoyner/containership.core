@@ -2,9 +2,10 @@
   "name": "containership.core",
   "version": "1.5.1",
   "description": "The core functionality of Containership",
-  "main": "application.js",
+  "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha"
+    "test": "mocha",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -22,14 +23,16 @@
     "codexd": "^0.2.0",
     "flat": "^1.6.0",
     "lodash": "^2.4.1",
-    "mocha": "^2.3.4",
-    "myriad-kv": "^0.3.2",
+    "myriad-kv": "^0.3.6",
     "node-uuid": "^1.4.7",
     "ohai-data": "^0.1.0",
     "request": "^2.51.0",
     "winston": "^0.7.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^3.0.0",
+    "mocha": "^2.3.4"
+  },
   "keywords": [
     "containership",
     "core",
