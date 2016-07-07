@@ -52,7 +52,7 @@ module.exports = {
     'log-location': {
         help: 'Location to write logs',
         metavar: 'LOG_LOCATION',
-        default: '/var/log/containership.log'
+        default: '/var/log/containership/containership.log'
     },
 
     'log-level': {
