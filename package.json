@@ -23,6 +23,7 @@
     "codexd": "^0.2.0",
     "flat": "^1.6.0",
     "lodash": "^2.4.1",
+    "mkdirp": "^0.5.1",
     "myriad-kv": "^0.3.6",
     "node-uuid": "^1.4.7",
     "ohai-data": "^0.1.0",

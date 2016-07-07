@@ -49,10 +49,10 @@ module.exports = {
         default: [process.env['HOME'], '.containership', 'plugins', 'node_modules'].join('/')
     },
 
-    'log-location': {
-        help: 'Location to write logs',
+    'base-log-dir': {
+        help: 'Base log directory',
         metavar: 'LOG_LOCATION',
-        default: '/var/log/containership/containership.log'
+        default: '/var/log/containership'
     },
 
     'log-level': {
