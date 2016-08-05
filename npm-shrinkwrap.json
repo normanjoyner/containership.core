@@ -207,9 +207,9 @@
       "resolved": "https://registry.npmjs.org/code-point-at/-/code-point-at-1.0.0.tgz"
     },
     "codexd": {
-      "version": "0.2.0",
-      "from": "codexd@0.2.0",
-      "resolved": "http://registry.npmjs.org/codexd/-/codexd-0.2.0.tgz",
+      "version": "0.2.1",
+      "from": "codexd@0.2.1",
+      "resolved": "http://registry.npmjs.org/codexd/-/codexd-0.2.1.tgz",
       "dependencies": {
         "async": {
           "version": "1.5.0",
