@@ -66,7 +66,7 @@ module.exports = {
     'snapshot-location': {
         help: 'Location to write snapshots',
         metavar: 'SNAPSHOT_LOCATION',
-        default: '/tmp/containership.snapshot'
+        default: '/opt/containership/containership.snapshot'
     },
 
     mode: {
