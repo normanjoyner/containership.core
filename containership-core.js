@@ -131,6 +131,11 @@ class ContainerShipCore {
             snapshot_name: 'containership.snapshot'
         };
 
+        if(_.has(options, 'snapshot-location')) {
+            options.persistence.data_directory = options['snapshot-location'].substring(0, options['snapshot-location'].lastIndexOf('/'));
+            options.persistence.snapshot_name = options['snapshot-location'].substring(options['snapshot-location'].lastIndexOf('/') + 1);
+        }
+
         this.options = options;
     }
 
