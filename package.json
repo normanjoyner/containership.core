@@ -24,7 +24,7 @@
     "flat": "^1.6.0",
     "lodash": "^2.4.1",
     "mkdirp": "^0.5.1",
-    "myriad-kv": "^0.3.8",
+    "myriad-kv": "^0.3.11",
     "node-uuid": "^1.4.7",
     "ohai-data": "^0.1.0",
     "request": "^2.51.0",
