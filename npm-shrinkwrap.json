@@ -726,9 +726,9 @@
       "resolved": "https://registry.npmjs.org/mute-stream/-/mute-stream-0.0.5.tgz"
     },
     "myriad-kv": {
-      "version": "0.4.1",
-      "from": "myriad-kv@0.4.1",
-      "resolved": "https://registry.npmjs.org/myriad-kv/-/myriad-kv-0.4.1.tgz",
+      "version": "0.4.2",
+      "from": "myriad-kv@0.4.2",
+      "resolved": "https://registry.npmjs.org/myriad-kv/-/myriad-kv-0.4.2.tgz",
       "dependencies": {
         "async": {
           "version": "1.0.0",
@@ -751,9 +751,9 @@
           "resolved": "https://registry.npmjs.org/native-dns/-/native-dns-0.7.0.tgz"
         },
         "praetor": {
-          "version": "0.1.21",
-          "from": "praetor@0.1.21",
-          "resolved": "https://registry.npmjs.org/praetor/-/praetor-0.1.21.tgz",
+          "version": "0.1.22",
+          "from": "praetor@0.1.22",
+          "resolved": "https://registry.npmjs.org/praetor/-/praetor-0.1.22.tgz",
           "dependencies": {
             "eventemitter2": {
               "version": "0.4.14",
@@ -761,9 +761,9 @@
               "resolved": "https://registry.npmjs.org/eventemitter2/-/eventemitter2-0.4.14.tgz"
             },
             "legiond": {
-              "version": "1.2.11",
-              "from": "legiond@1.2.11",
-              "resolved": "https://registry.npmjs.org/legiond/-/legiond-1.2.11.tgz",
+              "version": "1.2.12",
+              "from": "legiond@1.2.12",
+              "resolved": "https://registry.npmjs.org/legiond/-/legiond-1.2.12.tgz",
               "dependencies": {
                 "async": {
                   "version": "0.9.2",
@@ -853,18 +853,6 @@
                     }
                   }
                 },
-                "node-aes-gcm": {
-                  "version": "0.1.7",
-                  "from": "https://registry.npmjs.org/node-aes-gcm/-/node-aes-gcm-0.1.7.tgz",
-                  "resolved": "https://registry.npmjs.org/node-aes-gcm/-/node-aes-gcm-0.1.7.tgz",
-                  "dependencies": {
-                    "nan": {
-                      "version": "2.3.2",
-                      "from": "https://registry.npmjs.org/nan/-/nan-2.3.2.tgz",
-                      "resolved": "https://registry.npmjs.org/nan/-/nan-2.3.2.tgz"
-                    }
-                  }
-                },
                 "minimist": {
                   "version": "0.0.8",
                   "from": "minimist@0.0.8",
@@ -926,15 +914,15 @@
           "from": "https://registry.npmjs.org/base64-js/-/base64-js-0.0.2.tgz",
           "resolved": "https://registry.npmjs.org/base64-js/-/base64-js-0.0.2.tgz"
         },
-        "bops": {
-          "version": "0.0.7",
-          "from": "https://registry.npmjs.org/bops/-/bops-0.0.7.tgz",
-          "resolved": "https://registry.npmjs.org/bops/-/bops-0.0.7.tgz"
-        },
         "binaryheap": {
           "version": "0.0.3",
           "from": "https://registry.npmjs.org/binaryheap/-/binaryheap-0.0.3.tgz",
           "resolved": "https://registry.npmjs.org/binaryheap/-/binaryheap-0.0.3.tgz"
+        },
+        "bops": {
+          "version": "0.0.7",
+          "from": "https://registry.npmjs.org/bops/-/bops-0.0.7.tgz",
+          "resolved": "https://registry.npmjs.org/bops/-/bops-0.0.7.tgz"
         },
         "buffercursor": {
           "version": "0.0.12",
