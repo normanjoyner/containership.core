@@ -5,7 +5,8 @@ const plugins = require('./lib/plugins');
 const Logger = require('./lib/logger');
 const Cluster = require('./lib/cluster');
 const Applications = require('./lib/applications');
-const constants = require('./lib/constants');
+
+const constants = require('containership.core.constants');
 
 const _ = require('lodash');
 
