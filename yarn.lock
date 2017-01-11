@@ -180,10 +180,6 @@ brace-expansion@^1.0.0:
     balanced-match "^0.4.1"
     concat-map "0.0.1"
 
-buffer-shims@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/buffer-shims/-/buffer-shims-1.0.0.tgz#9978ce317388c649ad8793028c3477ef044a8b51"
-
 "buffercursor@>= 0.0.12":
   version "0.0.12"
   resolved "https://registry.yarnpkg.com/buffercursor/-/buffercursor-0.0.12.tgz#78a9a7f4343ae7d820a8999acc80de591e25a779"
@@ -462,11 +458,11 @@ es6-weak-map@^2.0.1:
     es6-iterator "2"
     es6-symbol "3"
 
-escape-string-regexp@1.0.2:
+escape-string-regexp@1.0.2, escape-string-regexp@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.2.tgz#4dbc2fe674e71949caf3fb2695ce7f2dc1d9a8d1"
 
-escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
+escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
@@ -938,14 +934,14 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.3.6"
 
-legiond@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/legiond/-/legiond-2.0.0.tgz#64883d941be892346c0df155e0fffb29f8bb2979"
+legiond@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/legiond/-/legiond-2.0.1.tgz#773d75cd7286b0f878984ce1a7bcd9cba2615e4d"
   dependencies:
     async "^0.9.0"
     eventemitter2 "^0.4.13"
     json-stream2 "^0.0.3"
-    lodash "^2.4.1"
+    lodash "^4.17.4"
     memorystream "^0.3.1"
     mkdirp "^0.5.1"
     netmask "^1.0.5"
@@ -969,6 +965,10 @@ lodash@^3.1.0, lodash@^3.9.3:
 lodash@^4.0.0, lodash@^4.3.0:
   version "4.17.2"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.2.tgz#34a3055babe04ce42467b607d700072c7ff6bf42"
+
+lodash@^4.17.4:
+  version "4.17.4"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
 lru-cache@2:
   version "2.7.3"
@@ -1052,15 +1052,15 @@ mute-stream@0.0.5:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.5.tgz#8fbfabb0a98a253d3184331f9e8deb7372fac6c0"
 
-myriad-kv@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/myriad-kv/-/myriad-kv-1.0.0.tgz#9dea6e808743cec23533c4265fd2801d2555361b"
+myriad-kv@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/myriad-kv/-/myriad-kv-1.0.1.tgz#60bf2e37ae35beb3ed1bf717fae59fde18540cd5"
   dependencies:
     async "^1.0.0"
     lodash "^3.9.3"
     msgpack-js "^0.3.0"
     native-dns "^0.7.0"
-    praetor "^1.0.0"
+    praetor "^1.0.1"
     winston "^1.0.0"
 
 native-dns-cache@~0.0.2:
@@ -1203,12 +1203,12 @@ pluralize@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-1.2.1.tgz#d1a21483fd22bb41e58a12fa3421823140897c45"
 
-praetor@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/praetor/-/praetor-1.0.0.tgz#59b81fadb019852074c08ce19031df4336c53536"
+praetor@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/praetor/-/praetor-1.0.1.tgz#66427d3141bcd8cae20816169eae2ee4982fd598"
   dependencies:
     eventemitter2 "^0.4.14"
-    legiond "^2.0.0"
+    legiond "^2.0.1"
     lodash "^2.4.1"
 
 prelude-ls@~1.1.2:
@@ -1254,11 +1254,10 @@ raw-body@~2.1.7:
     iconv-lite "0.4.13"
     unpipe "1.0.0"
 
-readable-stream@^2.0.0:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.2.2.tgz#a9e6fec3c7dda85f8bb1b3ba7028604556fc825e"
+readable-stream@^2.0.0, readable-stream@~2.0.0, readable-stream@~2.0.5:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.0.6.tgz#8f90341e68a53ccc928788dacfcd11b36eb9b78e"
   dependencies:
-    buffer-shims "^1.0.0"
     core-util-is "~1.0.0"
     inherits "~2.0.1"
     isarray "~1.0.0"
@@ -1269,17 +1268,6 @@ readable-stream@^2.0.0:
 "readable-stream@https://github.com/jeffbski/readable-stream/archive/v1.0.2-object-transform2-ret-self.tar.gz":
   version "1.0.2"
   resolved "https://github.com/jeffbski/readable-stream/archive/v1.0.2-object-transform2-ret-self.tar.gz#129e553a773186632e8b58939c58e6f607542b63"
-
-readable-stream@~2.0.0, readable-stream@~2.0.5:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.0.6.tgz#8f90341e68a53ccc928788dacfcd11b36eb9b78e"
-  dependencies:
-    core-util-is "~1.0.0"
-    inherits "~2.0.1"
-    isarray "~1.0.0"
-    process-nextick-args "~1.0.6"
-    string_decoder "~0.10.x"
-    util-deprecate "~1.0.1"
 
 readline2@^1.0.1:
   version "1.0.1"
