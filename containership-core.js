@@ -1,12 +1,12 @@
 'use strict';
 
-const resources = require('./lib/resources');
 const plugins = require('./lib/plugins');
 const Logger = require('./lib/logger');
 const Cluster = require('./lib/cluster');
 const Applications = require('./lib/applications');
 
 const constants = require('containership.core.constants');
+const os = require('os');
 
 const _ = require('lodash');
 
@@ -116,8 +116,10 @@ class ContainerShipCore {
                 constants.events.DELETE_HOST
             ];
 
-            options.legiond.attributes.memory = resources.get_memory();
-            options.legiond.attributes.cpus = resources.get_cpus();
+            const host_memory = Math.floor(os.totalmem());
+            const host_cpus = os.cpus().length;
+            options.legiond.attributes.memory = options['scheduler-available-memory'] &&  options['scheduler-available-memory'] <= host_memory ? options['scheduler-available-memory'] : host_memory;
+            options.legiond.attributes.cpus = options['scheduler-available-cpus'] && options['scheduler-available-cpus'] <= host_cpus ? options['scheduler-available-cpus'] : host_cpus;
         }
 
         options.legiond.attributes.metadata = {
