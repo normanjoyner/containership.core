@@ -23,7 +23,7 @@
     "codexd": "^0.2.1",
     "containership.core.constants": "^0.1.0",
     "flat": "^1.6.0",
-    "lodash": "^2.4.1",
+    "lodash": "4.17.4",
     "mkdirp": "^0.5.1",
     "myriad-kv": "^1.0.1",
     "node-uuid": "^1.4.7",
