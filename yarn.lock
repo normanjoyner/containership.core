@@ -954,7 +954,7 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lodash@4.17.4, lodash@^4.17.4:
+lodash@4.17.4, lodash@^4.0.0, lodash@^4.17.4, lodash@^4.3.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -965,10 +965,6 @@ lodash@^2.4.1:
 lodash@^3.1.0, lodash@^3.9.3:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
-
-lodash@^4.0.0, lodash@^4.3.0:
-  version "4.17.2"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.2.tgz#34a3055babe04ce42467b607d700072c7ff6bf42"
 
 lru-cache@2:
   version "2.7.3"
@@ -1052,15 +1048,15 @@ mute-stream@0.0.5:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.5.tgz#8fbfabb0a98a253d3184331f9e8deb7372fac6c0"
 
-myriad-kv@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/myriad-kv/-/myriad-kv-1.0.1.tgz#60bf2e37ae35beb3ed1bf717fae59fde18540cd5"
+myriad-kv@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/myriad-kv/-/myriad-kv-1.1.0.tgz#cb3b2b2da4b9a6321ab0fe7ac187d724da2e876f"
   dependencies:
     async "^1.0.0"
     lodash "^3.9.3"
     msgpack-js "^0.3.0"
     native-dns "^0.7.0"
-    praetor "^1.0.1"
+    praetor "^1.0.2"
     winston "^1.0.0"
 
 native-dns-cache@~0.0.2:
@@ -1203,9 +1199,9 @@ pluralize@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-1.2.1.tgz#d1a21483fd22bb41e58a12fa3421823140897c45"
 
-praetor@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/praetor/-/praetor-1.0.1.tgz#66427d3141bcd8cae20816169eae2ee4982fd598"
+praetor@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/praetor/-/praetor-1.0.2.tgz#0d95f7dd1b9930f90864dbd8e03aa4b136d47ce4"
   dependencies:
     eventemitter2 "^0.4.14"
     legiond "^2.0.1"
