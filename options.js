@@ -4,6 +4,11 @@ const _ = require('lodash');
 const os = require('os');
 
 module.exports = {
+    'connect-token': {
+        help: 'Cluster auth token used to connect to other nodes',
+        metavar: 'TOKEN',
+    },
+
     cidr: {
         help: 'CIDR range to search for other Containership nodes',
         list: true,
