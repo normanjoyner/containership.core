@@ -1,9 +1,10 @@
 'use strict';
 
-const plugins = require('./lib/plugins');
-const Logger = require('./lib/logger');
-const Cluster = require('./lib/cluster');
 const Applications = require('./lib/applications');
+const Cluster = require('./lib/cluster');
+const crypto = require('./lib/crypto');
+const Logger = require('./lib/logger');
+const plugins = require('./lib/plugins');
 
 const constants = require('containership.core.constants');
 const os = require('os');
@@ -127,6 +128,15 @@ class ContainerShipCore {
                 version: options.version
             }
         };
+
+        if(options['connect-token']) {
+            const random_token = crypto.generate_uuid();
+
+            options.legiond.attributes.metadata.containership.connect_token = {
+                encrypted: crypto.encrypt(options['connect-token'], random_token),
+                decrypted: random_token
+            };
+        }
 
         options.persistence = {
             max_coalescing_duration: 1024,
