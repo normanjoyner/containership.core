@@ -1048,9 +1048,9 @@ mute-stream@0.0.5:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.5.tgz#8fbfabb0a98a253d3184331f9e8deb7372fac6c0"
 
-myriad-kv@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/myriad-kv/-/myriad-kv-1.2.0.tgz#84da435d41b38841469c487163af3c008115c31e"
+myriad-kv@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/myriad-kv/-/myriad-kv-1.2.1.tgz#fdf4fe2cee97b58c3d78905ba32b0d46a9ba7105"
   dependencies:
     async "^1.0.0"
     lodash "^3.9.3"
