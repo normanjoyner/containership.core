@@ -1,6 +1,6 @@
 {
   "name": "containership.core",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "The core functionality of Containership",
   "main": "index.js",
   "scripts": {
