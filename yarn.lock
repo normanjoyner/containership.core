@@ -934,19 +934,6 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.3.6"
 
-legiond@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/legiond/-/legiond-3.0.0.tgz#578a49d51d2b585c2dd7a43276c032c545344ced"
-  dependencies:
-    async "^0.9.0"
-    eventemitter2 "^0.4.13"
-    json-stream2 "^0.0.3"
-    lodash "^4.17.4"
-    memorystream "^0.3.1"
-    mkdirp "^0.5.1"
-    netmask "^1.0.5"
-    network "^0.1.3"
-
 legiond@3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/legiond/-/legiond-3.1.0.tgz#c99da536a99b196d8556fdd406a1f86c80ff1212"
@@ -1061,15 +1048,15 @@ mute-stream@0.0.5:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.5.tgz#8fbfabb0a98a253d3184331f9e8deb7372fac6c0"
 
-myriad-kv@1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/myriad-kv/-/myriad-kv-1.2.2.tgz#01b90aa998af6af580b9bece20f9f591b5633d54"
+myriad-kv@1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/myriad-kv/-/myriad-kv-1.2.3.tgz#b4e3d165a20d13338dfaf358e34dd6377e921135"
   dependencies:
     async "^1.0.0"
     lodash "^3.9.3"
     msgpack-js "^0.3.0"
     native-dns "^0.7.0"
-    praetor "1.1.2"
+    praetor "1.2.1"
     winston "^1.0.0"
 
 native-dns-cache@~0.0.2:
@@ -1212,17 +1199,17 @@ pluralize@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-1.2.1.tgz#d1a21483fd22bb41e58a12fa3421823140897c45"
 
-praetor@1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/praetor/-/praetor-1.1.2.tgz#ccef7458f95b7952c89aeacbb0422e3dfc250dd5"
-  dependencies:
-    eventemitter2 "^0.4.14"
-    legiond "3.0.0"
-    lodash "^2.4.1"
-
 praetor@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/praetor/-/praetor-1.2.0.tgz#6f0a07abf8dedaea15adece592f1e9d62a2eab8e"
+  dependencies:
+    eventemitter2 "^0.4.14"
+    legiond "3.1.0"
+    lodash "^2.4.1"
+
+praetor@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/praetor/-/praetor-1.2.1.tgz#412cefc52d3b583b7b2cff659f2c32e1ca5d99aa"
   dependencies:
     eventemitter2 "^0.4.14"
     legiond "3.1.0"
