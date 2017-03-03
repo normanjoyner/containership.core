@@ -70,10 +70,11 @@ class ContainerShipCore {
                 leader_eligible: false
             },
             legiond: {
-                network: {},
                 attributes: {
                     mode: 'follower'
-                }
+                },
+                gatekeepers: [],
+                network: {}
             },
             channels: []
         });
