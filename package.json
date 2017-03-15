@@ -20,7 +20,7 @@
   "dependencies": {
     "async": "^0.8.0",
     "body-parser": "^1.4.3",
-    "codexd": "^0.2.1",
+    "codexd": "0.3.0",
     "containership.core.constants": "^0.1.0",
     "flat": "^1.6.0",
     "lodash": "4.17.4",

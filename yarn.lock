@@ -240,9 +240,9 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
-codexd@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/codexd/-/codexd-0.2.1.tgz#e692b20bbdcbe8231ebf770a031c0598021a7a41"
+codexd@0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/codexd/-/codexd-0.3.0.tgz#9c84256a4a471a7ef6bd2718898b239e5f50c30d"
   dependencies:
     async "^1.5.0"
     lodash "^3.1.0"
